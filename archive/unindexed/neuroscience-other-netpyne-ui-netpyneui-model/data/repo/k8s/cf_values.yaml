@@ -1,0 +1,41 @@
+hub:
+  image: 
+    name: gcr.io/metacellllc/netpyne-hub
+    pullPolicy: IfNotPresent
+  allowNamedServers: true
+  resources:
+    requests:
+      cpu: 100m
+      memory: 128Mi
+  namedServerLimitPerUser: 2
+  shutdownOnLogout: true
+  extraConfig:
+    timing: |
+      c.Spawner.notebook_dir = '/opt/workspace'
+      c.Spawner.default_url = '/geppetto'
+    spawner: >-
+      c.Spawner.args = ["--library=netpyne_ui", "--NotebookApp.default_url=/geppetto"]
+singleuser:
+  storage:
+    type: none
+  cpu:
+    limit: 0.5
+    guarantee: 0.2
+  memory:
+    limit: 0.5G
+    guarantee: 0.2G
+  image:
+    name:  gcr.io/metacellllc/netpyne-ui
+    pullPolicy: IfNotPresent
+
+cull:
+  enabled: true
+  users: false
+  removeNamedServers: true
+  timeout: 360
+  every: 60
+  concurrency: 10
+  maxAge: 0
+
+debug:
+  enabled: false

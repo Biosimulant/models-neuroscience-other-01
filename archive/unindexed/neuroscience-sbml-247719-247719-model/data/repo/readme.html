@@ -1,0 +1,27 @@
+<html>
+  The models for the paper:<p>
+
+    Vasalou C, Henson MA (2010) A multiscale model to investigate
+    circadian rhythmicity of pacemaker neurons in the suprachiasmatic
+    nucleus.
+    <a href="http://dx.doi.org/10.1371/journal.pcbi.1000706">PLoS Comput Biol</a> 6:e1000706
+    [<a href="https://www.ncbi.nlm.nih.gov/pubmed?holding=modeldb&term=20300645">PubMed</a>]
+  <p/>
+  are available at the biomodels website:<p/>
+  <a href="https://www.ebi.ac.uk/biomodels/BIOMD0000000246#Files">https://www.ebi.ac.uk/biomodels/BIOMD0000000246#Files</a>
+  <p/>
+
+  <p/> Example: To recreate a few traces in COPASI from figure 2 in
+  the paper: import the downloaded xml (SBML) file into COPASI, change
+  the Duration to more than 100 hours (172 here) and the interval
+  point to 0.1 hours. The more than 100 hours lets the model
+  stabilize. Create a few graphs (use Plots under Output
+  specifications). Running (click Run under Time Course window - see
+  below image)) creates the graphs.<p/>
+  
+  <img src="./screenshot1.png" alt="screenshot 1" width="550"><p/>
+  (Above image of COPASI simulator ready to run.)
+  <img src="./screenshot2.png" alt="screenshot 2" width="550"><p/>
+  (Above traces are I Na, g K, Ca, and firing rate plotted vs hours. Each cycle is 24 hours.)
+</html>
+

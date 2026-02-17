@@ -1,0 +1,35 @@
+schema_version: '2.0'
+title: 'Neuroscience: Model2DistinctClassesOfL2AndL3PyramidalNeuron236429Model'
+description: '{"value": "\"There have been few quantitative characterizations of the\r\nmorphological,
+  biophysical, and cable properties of neurons in the\r\nhuman neocortex. We employed
+  feature-based statistical m'
+standard: other
+tags:
+- neuroscience
+- other
+- modeldb
+- faithful
+authors:
+- Biosimulant Team
+- modeldb
+upstream:
+  id: modeldb:236429
+  source_db: modeldb
+  source_id: '236429'
+  standard: other
+  original_url: https://modeldb.science/236429
+  download_url: https://modeldb.science/download/236429
+  license: ''
+bsim:
+  entrypoint: src.model_2_distinct_classes_of_l2_and_l3_pyramidal_neuron_236429_model:Model2DistinctClassesOfL2AndL3PyramidalNeuron236429Model
+  init_kwargs:
+    model_path: data/236429.zip
+  min_dt: 0.01
+runtime:
+  python_version: '3.12'
+  dependencies:
+    packages:
+    - numpy==1.26.4
+io:
+  outputs:
+  - state

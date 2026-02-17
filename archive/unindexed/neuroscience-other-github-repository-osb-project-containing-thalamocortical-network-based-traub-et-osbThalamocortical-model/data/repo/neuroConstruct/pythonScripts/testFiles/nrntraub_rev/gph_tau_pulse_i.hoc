@@ -1,0 +1,251 @@
+// this file assumes that ../nrntraub is available with source from modelDB
+// <add link>
+
+load_file("nrngui.hoc")
+load_file("mview.hoc")
+load_file("../nrntraub/hoc/traubcon.hoc")
+load_file("../nrntraub/fortmap.hoc")
+load_file("../nrntraub/cell_templates.hoc")
+
+strdef of_name
+of_name="gph_tau_pulse"
+load_file("hoc/outfolder.hoc")
+
+objref myplotinfo_
+myplotinfo_ = new List()
+strdef mytstr1
+for i=1,6 {getstr(mytstr1) myplotinfo_.append(new String(mytstr1))}
+rest1	   -68.4    -1.500  -0.500    1     10       1   0
+rest2	   -68.4    -0.300  -0.100    1     10       1   1
+rest3	   -68.4    -0.300  -0.100    1     10       1   0
+rest4	   -68.4    -0.300  -0.100    1     10       1   1
+rest5	   -68.4    -0.300  -0.100    1     10       3   0
+rest6	   -68.4    -0.300  -0.100    1     10       3   1
+
+// name    v0      a2     a2end   stimlen steps  compartment exact/no
+
+// threshold is neear this: rest5	 -81.5  -000.1  0.1125   0  rem: IClamp is in nA
+
+// from ../nrntraub/onecell.hoc
+// til the shift bug in the mod files are fixed (table depends on range variable)
+usetable_naf2 = 0
+usetable_naf = 0
+usetable_napf_spinstell = 0
+usetable_napf_tcr = 0
+
+// initial vars
+objref cell, nil, stim1, stim2
+cell = nil
+a1 = 0  
+a2 = 0  
+v0 = 0
+
+
+
+// from ses file to create graph window
+objectvar save_window_, rvp_
+objectvar scene_vector_[3]
+objectvar ocbox_, ocbox_list_, scene_, scene_list_
+{ocbox_list_ = new List()  scene_list_ = new List()}
+{pwman_place(0,0,0)}
+{
+save_window_ = new Graph(0)
+save_window_.size(0,650,-90,40)
+scene_vector_[2] = save_window_
+min_x_coord=0
+max_x_coord=700
+min_y_coord=-120
+max_y_coord=60
+{save_window_.view(min_x_coord, min_y_coord, max_x_coord, max_y_coord, 1, 75, 860, 699)}
+graphList[0].append(save_window_)
+save_window_.save_name("graphList[0].")
+}
+objectvar scene_vector_[1]
+{doNotify()}
+// End ses file
+
+
+
+proc runcell_simple() {local i, t1,a1,t2,a2  localobj vvec, tvec, f, g
+		cell = nil
+		execute("cell = new spinstell()")	
+}
+
+
+//
+// 
+// 
+load_file("hoc/record_data.hoc")
+
+
+objref mvvec, mtvec, myg
+proc make_figure() { local idx1, deltat, maxt  localobj vf, tf, g
+		strdef vstr, lstr, vstr1
+		a1 = 0  a2 = 0  a2endval = 0  a2delta = 0   v0 = 0  numsims = 0  compnum = 0  exact_ = 0  stimlen = 0
+		i = sscanf(myplotinfo_.object($1).s, "%s %lf %lf %lf %d %d %d %d", vstr, &v0, &a2, &a2endval, &stimlen, &numsims, &compnum, &exact_)
+		print "plotting parms :", vstr, " v0:",v0, " stim2:", a2, " stim2end:", a2endval," stimlen:",stimlen, " numsims:", numsims, "compartment", compnum,  "exact:", exact_
+		a2delta = a2endval - a2
+		
+		dt=0.025
+		
+		runcell_simple()
+		access cell.comp[compnum]
+		define_shape()
+		myg = Graph[0]
+		myg.erase_all
+		//	myg.size(0,400,-100,100)
+		// myg.exec_menu("Keep Lines")
+		
+		// run traubexact if needed
+		if (exact_) { 
+				print "setting traubexact"
+				traubexact(cell, tci) 
+				// from ../nrntraub/hoc/traubcon.hoc
+				// $o1 is the cell, $o2 is the connection matrix
+				// assume the names of sections range from
+				// $o1.comp[1] to $o1.comp[$o2.nrow-1]
+				// the connection matrix
+				
+				// the traub connection rule is that a childs 0 end is connected
+				// to the .5 location of the parent and the resistance is defined
+				// by the connection matrix (uS) with one exception. Sometimes
+				// pairs or triples of children are also connected to each other
+				// and these children are moved to the 1 end of the parent and
+				// the delta network is replaced by the equivalent wye network.
+		}
+		
+		if (a1 != -1000 || a2 != -1000) {
+				stim1 = nil
+				stim1 = new IClamp(.5)
+				stim1.del = 200
+				stim1.amp = a2 
+				stim1.dur = stimlen
+				sprint(lstr,"i=%lf,_tbexact=%d",a2,exact_)
+		}	else {
+				sprint(lstr,"no_i,_tbexact=%d",exact_)
+		}
+		
+	  tstop = max_x_coord-min_x_coord
+		
+		myg.label(0.797674, 0.855508, lstr, 2, 1, 0, 0, 1)
+		
+		sprint(vstr1, "cell.comp[%d].v(.5)", compnum) //  cell.presyn_comp = 57
+		myg.addvar(vstr1, 1+($1>2), 1) // color, brush
+		
+		rd_pdat_.o[0].x[0]=min_x_coord
+		rd_pdat_.o[0].x[1]=min_y_coord
+		rd_pdat_.o[0].x[2]=max_x_coord
+		rd_pdat_.o[0].x[3]=max_y_coord
+		rd_pdat_.o[1].s="ms"
+		rd_pdat_.o[2].s="mV"
+		rd_pdat_.o[3].s=lstr
+		
+		// set what to record
+		record_data_vt()
+		
+		for bati=0, numsims {
+				// update iclamp
+				stim1.amp=a2+bati*a2delta/(numsims)
+				sprint(lstr,"i=%lf,_tbexact=%d",stim1.amp,exact_)
+				rd_pdat_.o[3].s=lstr
+				
+				run()
+				
+				// store files to disk
+				access cell.comp[compnum]
+				rd_gname = vstr
+				
+				rd_pdat_.o[0].x[0]=min_x_coord
+				rd_pdat_.o[0].x[1]=min_y_coord
+				rd_pdat_.o[0].x[2]=max_x_coord
+				rd_pdat_.o[0].x[3]=max_y_coord
+				rd_pdat_.o[1].s="ms"
+				rd_pdat_.o[2].s="mV"
+				rd_pdat_.o[3].s=lstr
+				
+				record_data_disk_vt()
+				
+				rd_pdat_.o[0].x[0]=min_x_coord
+				rd_pdat_.o[0].x[1]=-0.2
+				rd_pdat_.o[0].x[2]=max_x_coord
+				rd_pdat_.o[0].x[3]=1.4
+				rd_pdat_.o[1].s="ms"
+				rd_pdat_.o[2].s="%"
+				rd_pdat_.o[3].s=lstr
+				
+				if (stim1.amp > 0) {  // this case is not handled!
+						print "sorry positive stim1.amp is not supported!"
+				} else {
+						// look after spike time + small offset +
+						skipspike = 80*0.025/dt
+						
+						tbeg1 = stim1.del/dt+skipspike
+						tend1 = (tstop - stim1.del)/dt
+						print " tbeg1:",tbeg1," tend1:",tend1
+						// max in range is value eventually we tend to.. (check for rebounds)
+						// find steady state level (at end of trace?)
+						maxval = rd_rec_v.max(tend1-10*0.025/dt,tend1)
+						minval = rd_rec_v.min(tbeg1,tend1)
+						
+						// count from 2nd derivative 0 to 1+1/e
+						zero1=rd_rec_v.x[tbeg1-skipspike]
+						
+						// find index for 
+						minidx = rd_rec_v.min_ind(tbeg1,tend1)
+						rd_rec_v_res = rd_rec_v.c(minidx, tend1)
+						// find the 2/3 of max height
+						stopval1 =  (1-1/exp(1))*abs(minval-zero1)+minval
+						tauidx = rd_rec_v_res.indwhere(">", stopval1)
+						print "minval:",minval," zero1:",zero1," stopval1:",stopval1," tauidx:",tauidx
+						
+						// store a normalised version of the exponential
+						rd_pdat_.o[0].x[5]=1 // autoscale
+						rd_rec_v_op = rd_rec_v.c(tbeg1,tend1)
+						rd_rec_v_op.sub(zero1)
+						rd_rec_v_op.div(minval-zero1)
+						record_data_disk_vt_op()
+						
+						record_data_val(stim1.amp,tauidx*dt)
+						
+						rd_pdat_.o[0].x[5]=0 // autoscale off
+						record_data_restv(tauidx+tbeg1,stim1.amp)
+				}
+				
+		}
+		
+		sprint(lstr,"Estimating Tau (Dt to 1-1/e of max) %s"," ")
+		rd_pdat_.o[0].x[5]=1 // autoscale
+		rd_pdat_.o[1].s="stim. in nA"
+		rd_pdat_.o[2].s="tau est. in ms"
+		rd_pdat_.o[3].s=lstr
+		
+		// should capture the actual range
+		//		rd_pdat_.o[1].s="Current Injection (nA)"
+		//		rd_pdat_.o[3].s=lstr
+		record_data_disk_summary_val()
+		
+		sprint(lstr,"V-Max Exponential %s"," ")
+		rd_pdat_.o[0].x[5]=1 // autoscale
+		rd_pdat_.o[1].s="stim. in nA"
+		rd_pdat_.o[2].s="V at peak in mV"
+		rd_pdat_.o[3].s=lstr
+		
+		record_data_disk_summary()
+}
+
+objref fih0_
+fih0_ = new FInitializeHandler(0, "finit0()")
+proc finit0() { local ix, idx1 localobj lcell
+		// in the neuron project this was inited to -65?
+		forsec cell.all { v = v0 }
+}
+
+print "this script automatically creates all graphs on startup"
+print "individual graphs can be run with make_figure(n)"
+print "make_figure(n)"
+print " 0 for a batch of normal" 
+print " 1 for a batch of traubexact"
+
+make_figure(0)
+
+

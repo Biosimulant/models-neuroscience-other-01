@@ -1,0 +1,57 @@
+{
+  "name": "netpyne-ui.test.e2e",
+  "version": "0.1.0",
+  "description": "NetPyNe UI tests",
+  "license": "unlicensed",
+  "scripts": {
+    "test": "sleep 60 && npm run simple_tutorials_test && npm run complex_tutorials_test && npm run features_test",
+    "puppeteer_test": "jest --verbose",
+    "simple_tutorials_test": "sleep 60 && jest --verbose Tut#1_smoke Tut#2_smoke Tut#4_smoke",
+    "complex_tutorials_test": "jest --verbose Tut#3a_smoke Tut#3b_smoke Tut#3c_smoke",
+    "features_test": "jest --verbose ControlPanel SaveOpenFile  RxD EEG_and_Dipole_Tut#1 ExperimentManager_Tut#1",
+    "EEG_Dipole_test": "jest --verbose EEG_and_Dipole_Tut#1 ",
+    "Experiment_Manager_test": "jest --verbose ExperimentManager_Tut#1 ",
+    "Tutorial_1_test": "jest --verbose Tut#1_smoke ",
+    "Tutorial_2_test": "jest --verbose Tut#2_smoke ",
+    "Tutorial_3A_test": "jest --verbose Tut#3a_smoke ",
+    "Tutorial_3B_test": "jest --verbose Tut#3b_smoke ",
+    "Tutorial_3C_test": "jest --verbose Tut#3c_smoke ",
+    "Tutorial_4_test": "jest --verbose Tut#4_smoke ",
+    "Control_Panel_test": "jest --verbose ControlPanel ",
+    "Save_Open_File_test": "jest --verbose SaveOpenFile",
+    "RxD_test": "jest --verbose RxD",
+    "lint": "eslint --fix --ext .js,.jsx ."
+  },
+  "dependencies": {
+    "jest": "^27.5.1",
+    "jest-image-snapshot": "^4.5.1",
+    "jest-puppeteer": "^6.1.0",
+    "puppeteer": "^13.5.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-stage-2": "^7.0.0",
+    "@babel/runtime": "^7.4.5",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.9.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "babel-plugin-transform-object-assign": "^6.8.0",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "eslint": "^6.0.1",
+    "eslint-plugin-jest": "^22.21.0"
+  },
+  "buildOptions": {
+    "emitEntryPoint": true,
+    "compile": {
+      "exclude": [
+        "node_modules"
+      ]
+    }
+  }
+}

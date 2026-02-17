@@ -1,0 +1,34 @@
+import os
+
+UPLOAD_FOLDER_NAME = 'uploads'
+NETPYNE_WORKDIR = 'workspace'
+EXPERIMENTS_FOLDER = "experiments"
+MODEL_OUTPUT_FILENAME = 'model_output'
+
+SIMULATION_SCRIPT_NAME = "init.py"
+TEMPLATE_FILENAME_SINGLE_RUN = "run.py"
+TEMPLATE_FILENAME_SINGLE_RUN_INSTANTIATED = "run_instantiated_net.py"
+TEMPLATE_FILENAME_BATCH_RUN = "batch_run_single.py"
+TEMPLATE_FILENAME_BATCH = "batch.py"
+
+ALLOWED_EXTENSIONS = ["py", "zip", "gz", ".tar.gz", "pdf", "txt", "xls", "png", "jpeg", "hoc", "json", "xml", "nml"]
+HERE = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.dirname(HERE)
+UPLOAD_FOLDER_PATH = os.path.join(ROOT, NETPYNE_WORKDIR, UPLOAD_FOLDER_NAME)
+NETPYNE_WORKDIR_PATH = os.path.join(ROOT, NETPYNE_WORKDIR)
+EXPERIMENTS_FOLDER_PATH = os.path.join(ROOT, NETPYNE_WORKDIR, EXPERIMENTS_FOLDER)
+
+if not os.path.exists(NETPYNE_WORKDIR_PATH):
+    NETPYNE_WORKDIR_PATH = os.path.join(os.getcwd(), NETPYNE_WORKDIR)
+
+if not os.path.exists(NETPYNE_WORKDIR_PATH):
+    raise Exception(f"Workdir path {NETPYNE_WORKDIR_PATH} does not exist")
+
+if not os.path.exists(UPLOAD_FOLDER_PATH):
+    os.makedirs(UPLOAD_FOLDER_PATH)
+
+if not os.path.exists(NETPYNE_WORKDIR_PATH):
+    os.makedirs(NETPYNE_WORKDIR_PATH)
+
+# Number of connections above this limit are considered too many to be shown.
+NUM_CONN_LIMIT = 1000

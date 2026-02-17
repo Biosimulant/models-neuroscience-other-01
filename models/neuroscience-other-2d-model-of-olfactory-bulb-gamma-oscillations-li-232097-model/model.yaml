@@ -1,0 +1,35 @@
+schema_version: '2.0'
+title: 'Neuroscience: Model2dModelOfOlfactoryBulbGammaOscillationsLi232097Model'
+description: '{"value": "This is a biophysical model of the olfactory bulb (OB) that
+  contains three types of neurons: mitral cells, granule cells and periglomerular
+  cells. The model is used to study the cellular an'
+standard: other
+tags:
+- neuroscience
+- other
+- modeldb
+- faithful
+authors:
+- Biosimulant Team
+- modeldb
+upstream:
+  id: modeldb:232097
+  source_db: modeldb
+  source_id: '232097'
+  standard: other
+  original_url: https://modeldb.science/232097
+  download_url: https://modeldb.science/download/232097
+  license: ''
+bsim:
+  entrypoint: src.model_2d_model_of_olfactory_bulb_gamma_oscillations_li_232097_model:Model2dModelOfOlfactoryBulbGammaOscillationsLi232097Model
+  init_kwargs:
+    model_path: data/232097.zip
+  min_dt: 0.01
+runtime:
+  python_version: '3.12'
+  dependencies:
+    packages:
+    - numpy==1.26.4
+io:
+  outputs:
+  - state

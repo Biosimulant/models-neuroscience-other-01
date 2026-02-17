@@ -1,0 +1,35 @@
+schema_version: '2.0'
+title: 'Neuroscience: Model3dReconstructedAstrocyteWithKDynamics2019791Model'
+description: '{"value": "A NEURON implementation of the K\u207a accumulation and clearance
+  curves from Figure\u202f5 of Savtchenko et\u202fal. (2018, Nature Communications),
+  using four CA1 astrocytes to reproduce t'
+standard: other
+tags:
+- neuroscience
+- other
+- modeldb
+- faithful
+authors:
+- Biosimulant Team
+- modeldb
+upstream:
+  id: modeldb:2019791
+  source_db: modeldb
+  source_id: '2019791'
+  standard: other
+  original_url: https://modeldb.science/2019791
+  download_url: https://modeldb.science/download/2019791
+  license: ''
+bsim:
+  entrypoint: src.model_3d_reconstructed_astrocyte_with_k_dynamics_2019791_model:Model3dReconstructedAstrocyteWithKDynamics2019791Model
+  init_kwargs:
+    model_path: data/2019791.zip
+  min_dt: 0.01
+runtime:
+  python_version: '3.12'
+  dependencies:
+    packages:
+    - numpy==1.26.4
+io:
+  outputs:
+  - state

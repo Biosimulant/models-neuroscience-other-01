@@ -1,0 +1,56 @@
+version: "1.0"
+stages:
+  - "clone"
+  - "build"
+  - "deploy"
+steps:
+  main_clone:
+    type: "git-clone"
+    description: "Cloning main repository..."
+    repo: "MetaCell/NetPyNE-UI"
+    revision: "${{CF_BRANCH}}"
+    stage: "clone"
+  BuildingNetPyNE-UI:
+    title: Building NetPyNE-UI
+    type: build
+    stage: build
+    image_name: netpyne-ui
+    working_directory: ${{main_clone}}
+    tag: '${{CF_BRANCH_TAG_NORMALIZED}}-${{CF_SHORT_REVISION}}-${{CF_BUILD_TIMESTAMP}}'
+    build_arguments:
+      - NETPYNE_VERSION=${{NETPYNE_VERSION}}
+      - WORKSPACE_VERSION=${{WORKSPACE_VERSION}}
+      - PYGEPPETTO_VERSION=${{PYGEPPETTO_VERSION}}
+      - JUPYTER_GEPPETTO_VERSION=${{JUPYTER_GEPPETTO_VERSION}}
+      - BUILD_ARGS=${{BUILD_ARGS}}
+    registry: ${{REGISTRY}}
+  BuildingHub:
+    title: Building Hub
+    type: build
+    stage: "build"
+    image_name: netpyne-hub
+    working_directory: k8s
+    tag: '${{CF_BRANCH_TAG_NORMALIZED}}-${{CF_SHORT_REVISION}}-${{CF_BUILD_TIMESTAMP}}'
+    registry: ${{REGISTRY}}
+  installing_chart:
+    type: helm
+    stage: deploy
+    title: "Deploy chart"
+    working_directory: k8s
+    arguments:
+      action: install
+      chart_name: jupyterhub
+      release_name: ${{RELEASE_NAME}}
+      helm_version: 3.0.2
+      chart_repo_url: 'https://jupyterhub.github.io/helm-chart/'
+      chart_version: '0.9.0'
+      kube_context: ${{CLUSTER_NAME}}
+      namespace: ${{NAMESPACE}}
+      custom_value_files: 
+        - 'cf_values.yaml'
+      custom_values:
+        - 'hub_image_tag=${{CF_BRANCH_TAG_NORMALIZED}}-${{CF_SHORT_REVISION}}-${{CF_BUILD_TIMESTAMP}}'
+        - 'singleuser_image_tag=${{CF_BRANCH_TAG_NORMALIZED}}-${{CF_SHORT_REVISION}}-${{CF_BUILD_TIMESTAMP}}'
+        - 'singleuser_memory_limit=${{MEMORY_MAX}}'
+        - 'singleuser_memory_guarantee=${{MEMORY_MIN}}'
+        - 'proxy_secretToken=${{SECRET_TOKEN}}'
