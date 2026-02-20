@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/182785
   download_url: https://modeldb.science/download/182785
   license: ''
-bsim:
+biosim:
   entrypoint: src.model_3d_printer_visualization_of_neuron_models_mcdoug_182785_model:Other3dPrinterVisualizationOfNeuronModelsMcdougalAnd
   init_kwargs:
     model_path: data/182785.zip

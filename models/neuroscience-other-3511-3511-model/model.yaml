@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/3511
   download_url: https://github.com/OpenSourceBrain/3511.git
   license: ''
-bsim:
+biosim:
   entrypoint: src.model_3511_3511_model:Model35113511Model
   init_kwargs:
     model_path: data/repo

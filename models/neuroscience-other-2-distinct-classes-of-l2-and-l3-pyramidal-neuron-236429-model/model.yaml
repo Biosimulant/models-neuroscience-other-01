@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/236429
   download_url: https://modeldb.science/download/236429
   license: ''
-bsim:
+biosim:
   entrypoint: src.model_2_distinct_classes_of_l2_and_l3_pyramidal_neuron_236429_model:Model2DistinctClassesOfL2AndL3PyramidalNeuron236429Model
   init_kwargs:
     model_path: data/236429.zip

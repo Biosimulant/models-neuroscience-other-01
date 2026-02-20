@@ -19,7 +19,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/20756
   download_url: https://github.com/OpenSourceBrain/20756.git
   license: ''
-bsim:
+biosim:
   entrypoint: src.model_20756_20756_model:Model2075620756Model
   init_kwargs:
     model_path: data/repo

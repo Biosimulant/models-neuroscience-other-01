@@ -19,7 +19,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/3264
   download_url: https://github.com/OpenSourceBrain/3264.git
   license: ''
-bsim:
+biosim:
   entrypoint: src.model_3264_3264_model:Model32643264Model
   init_kwargs:
     model_path: data/repo

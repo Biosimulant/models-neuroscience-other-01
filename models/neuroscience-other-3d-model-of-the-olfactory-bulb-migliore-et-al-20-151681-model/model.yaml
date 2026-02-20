@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/151681
   download_url: https://modeldb.science/download/151681
   license: ''
-bsim:
+biosim:
   entrypoint: src.model_3d_model_of_the_olfactory_bulb_migliore_et_al_20_151681_model:Other3dModelOfTheOlfactoryBulbMiglioreEtAl2014
   init_kwargs:
     model_path: data/151681.zip

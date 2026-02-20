@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/2733
   download_url: https://github.com/OpenSourceBrain/2733.git
   license: ''
-bsim:
+biosim:
   entrypoint: src.model_2733_2733_model:Model27332733Model
   init_kwargs:
     model_path: data/repo

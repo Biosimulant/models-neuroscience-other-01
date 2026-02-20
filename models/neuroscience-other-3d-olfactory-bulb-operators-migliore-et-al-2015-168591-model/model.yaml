@@ -20,7 +20,7 @@ upstream:
   original_url: https://modeldb.science/168591
   download_url: https://modeldb.science/download/168591
   license: ''
-bsim:
+biosim:
   entrypoint: src.model_3d_olfactory_bulb_operators_migliore_et_al_2015_168591_model:Other3dOlfactoryBulbOperatorsMiglioreEtAl2015
   init_kwargs:
     model_path: data/168591.zip

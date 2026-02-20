@@ -16,13 +16,13 @@ from pathlib import Path
 from typing import Any, Dict, Optional, Set, TYPE_CHECKING
 
 if TYPE_CHECKING:  # pragma: no cover - typing only
-    from bsim import BioWorld
+    from biosim import BioWorld
 
-import bsim
-from bsim.signals import BioSignal, SignalMetadata
+import biosim
+from biosim.signals import BioSignal, SignalMetadata
 
 
-class Other2dModelOfOlfactoryBulbGammaOscillationsLiAnd(bsim.BioModule):
+class Other2dModelOfOlfactoryBulbGammaOscillationsLiAnd(biosim.BioModule):
     """Placeholder BioModule wrapper for: 2D model of olfactory bulb gamma oscillations (Li and Cleland 2017).
 
     This model's original format is not directly supported by the auto-generator.

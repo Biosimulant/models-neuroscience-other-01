@@ -18,7 +18,7 @@ upstream:
   original_url: https://github.com/OpenSourceBrain/3670
   download_url: https://github.com/OpenSourceBrain/3670.git
   license: ''
-bsim:
+biosim:
   entrypoint: src.model_3670_3670_model:Model36703670Model
   init_kwargs:
     model_path: data/repo
