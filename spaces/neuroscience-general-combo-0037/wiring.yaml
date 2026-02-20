@@ -1,0 +1,36 @@
+modules:
+  model_1:
+    class: src.model_111967_111967_model:Model111967111967Model
+    args:
+      model_path: data/repo
+  model_2:
+    class: src.model_112079_112079_model:Model112079112079Model
+    args:
+      model_path: data/repo
+  model_3:
+    class: src.model_112086_112086_model:Model112086112086Model
+    args:
+      model_path: data/repo
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: model_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: model_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: model_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

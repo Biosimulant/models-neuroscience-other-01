@@ -1,0 +1,36 @@
+modules:
+  model_1:
+    class: src.model_3801_3801_model:Model38013801Model
+    args:
+      model_path: data/repo
+  3d_reconstructed_2:
+    class: src.model_3d_reconstructed_astrocyte_with_k_dynamics_2019791_model:Model3dReconstructedAstrocyteWithKDynamics2019791Model
+    args:
+      model_path: data/2019791.zip
+  model_3:
+    class: src.model_44050_44050_model:Model4405044050Model
+    args:
+      model_path: data/repo
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: model_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: 3d_reconstructed_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: model_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c

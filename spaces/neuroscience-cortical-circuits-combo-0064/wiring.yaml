@@ -1,0 +1,44 @@
+modules:
+  model_1:
+    class: src.model_29942_29942_model:Model2994229942Model
+    args:
+      model_path: data/repo
+  2d_model_2:
+    class: src.model_2d_model_of_olfactory_bulb_gamma_oscillations_li_232097_model:Model2dModelOfOlfactoryBulbGammaOscillationsLi232097Model
+    args:
+      model_path: data/232097.zip
+  2d_olfactory_3:
+    class: src.model_232097_232097_model:Model232097232097Model
+    args:
+      model_path: data/repo
+  model_4:
+    class: src.model_3264_3264_model:Model32643264Model
+    args:
+      model_path: data/repo
+  state_compare_mon:
+    class: src.state_comparison_monitor:StateComparisonMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+  state_metrics_mon:
+    class: src.state_metrics_monitor:StateMetricsMonitor
+    args:
+      max_points: 2000
+      min_dt: 1.0
+wiring:
+- from: model_1.state
+  to:
+  - state_compare_mon.state_a
+  - state_metrics_mon.state_a
+- from: 2d_model_2.state
+  to:
+  - state_compare_mon.state_b
+  - state_metrics_mon.state_b
+- from: 2d_olfactory_3.state
+  to:
+  - state_compare_mon.state_c
+  - state_metrics_mon.state_c
+- from: model_4.state
+  to:
+  - state_compare_mon.state_d
+  - state_metrics_mon.state_d
