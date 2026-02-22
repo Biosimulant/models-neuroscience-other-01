@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model128559128559Model'
-description: Mathematical model for windup (Aguiar et al. 2010)
+description: "Mathematical model for windup (Aguiar et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

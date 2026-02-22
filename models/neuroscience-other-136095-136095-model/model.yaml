@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model136095136095Model'
-description: Synaptic information transfer in computer models of neocortical columns
-  (Neymotin et al. 2010)
+description: "Synaptic information transfer in computer models of neocortical columns (Neymotin et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model127321127321Model'
-description: A model of the temporal pattern generator of C. elegans egg-laying behavior
-  (Zhang et. al 2010)
+description: "A model of the temporal pattern generator of C. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

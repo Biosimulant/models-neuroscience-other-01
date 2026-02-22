@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model120115120115Model'
-description: Transmitter release and Ca diffusion models (Yamada and Zucker 1992)
+description: "Transmitter release and Ca diffusion models (Yamada and Zucker 1992). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

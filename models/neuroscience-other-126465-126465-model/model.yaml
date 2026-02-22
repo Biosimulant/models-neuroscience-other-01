@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model126465126465Model'
-description: Spike-Timing-Based Computation in Sound Localization (Goodman and Brette
-  2010)
+description: "Spike-Timing-Based Computation in Sound Localization (Goodman and Brette 2010). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

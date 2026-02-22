@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model118799118799Model'
-description: Loss of phase-locking in non-weakly coupled inhib. networks of type-I
-  neurons (Oh and Matveev 2009)
+description: "Loss of phase-locking in non-weakly coupled inhib. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

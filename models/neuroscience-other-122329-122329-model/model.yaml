@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model122329122329Model'
-description: Model of SK current's influence on precision in Globus Pallidus Neurons
-  (Deister et al. 2009)
+description: "Model of SK current's influence on precision in Globus Pallidus Neurons (Deister et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

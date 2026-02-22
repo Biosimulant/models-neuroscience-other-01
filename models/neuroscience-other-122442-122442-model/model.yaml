@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model122442122442Model'
-description: Tight junction model of CNS myelinated axons (Devaux and Gow 2008)
+description: "Tight junction model of CNS myelinated axons (Devaux and Gow 2008). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

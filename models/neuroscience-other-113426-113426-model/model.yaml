@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model113426113426Model'
-description: Stability of complex spike timing-dependent plasticity in cerebellar
-  learning (Roberts 2007)
+description: "Stability of complex spike timing-dependent plasticity in cerebellar learning (Roberts 2007). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

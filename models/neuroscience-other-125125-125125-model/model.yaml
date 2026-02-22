@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model125125125125Model'
-description: Reduced leech heart interneuron (Channell et al. 2009)
+description: "Reduced leech heart interneuron (Channell et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

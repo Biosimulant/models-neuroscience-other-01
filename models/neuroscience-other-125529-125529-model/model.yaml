@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model125529125529Model'
-description: Respiratory central pattern generator network in mammalian brainstem
-  (Rubin et al. 2009)
+description: "Respiratory central pattern generator network in mammalian brainstem (Rubin et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

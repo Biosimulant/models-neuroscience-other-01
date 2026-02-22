@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model120184120184Model'
-description: A kinetic model unifying presynaptic short-term facilitation and depression
-  (Lee et al. 2009)
+description: "A kinetic model unifying presynaptic short-term facilitation and depression (Lee et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

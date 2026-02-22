@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model1959119591Model'
-description: Synaptic integration in a model of granule cells (Gabbiani et al 1994)
+description: "Synaptic integration in a model of granule cells (Gabbiani et al 1994). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

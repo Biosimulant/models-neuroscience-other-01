@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model120910120910Model'
-description: Electrically-coupled Retzius neurons (Vazquez et al. 2009)
+description: "Electrically-coupled Retzius neurons (Vazquez et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

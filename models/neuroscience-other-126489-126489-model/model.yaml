@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model126489126489Model'
-description: Models analysis for auditory-nerve synapse (Zhang and Carney 2005)
+description: "Models analysis for auditory-nerve synapse (Zhang and Carney 2005). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

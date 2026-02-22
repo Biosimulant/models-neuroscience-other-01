@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model116313116313Model'
-description: A Model of Selection between Stimulus and Place Strategy in a Hawkmoth
-  (Balkenius et al. 2004)
+description: "A Model of Selection between Stimulus and Place Strategy in a Hawkmoth (Balkenius et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

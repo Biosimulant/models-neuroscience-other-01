@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model119283119283Model'
-description: Computational neuropharmacology of CA1 pyramidal neuron (Ferrante et
-  al. 2008)
+description: "Computational neuropharmacology of CA1 pyramidal neuron (Ferrante et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

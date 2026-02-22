@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model112968112968Model'
-description: Synchronization by D4 dopamine receptor-mediated phospholipid methylation
-  (Kuznetsova, Deth 2008)
+description: "Synchronization by D4 dopamine receptor-mediated phospholipid methylation (Kuznetsova, Deth 2008). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

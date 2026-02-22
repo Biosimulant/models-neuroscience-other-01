@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model113997113997Model'
-description: Hodgkin-Huxley model of persistent activity in prefrontal cortex neurons
-  (Winograd et al. 2008)
+description: "Hodgkin-Huxley model of persistent activity in prefrontal cortex neurons (Winograd et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

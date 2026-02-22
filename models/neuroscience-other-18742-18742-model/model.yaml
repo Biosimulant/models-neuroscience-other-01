@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model1874218742Model'
-description: Novel Na current with slow de-inactivation (Tsutsui, Oka 2002)
+description: "Novel Na current with slow de-inactivation (Tsutsui, Oka 2002). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model127967127967Model'
-description: Generating coherent patterns of activity from chaotic neural networks
-  (Sussillo and Abbott 2009)
+description: "Generating coherent patterns of activity from chaotic neural networks (Sussillo and Abbott 2009). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

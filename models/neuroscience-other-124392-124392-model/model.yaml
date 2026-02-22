@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model124392124392Model'
-description: Epilepsy may be caused by very small functional changes in ion channels
-  (Thomas et al. 2009)
+description: "Epilepsy may be caused by very small functional changes in ion channels (Thomas et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

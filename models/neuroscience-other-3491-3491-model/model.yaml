@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model34913491Model'
-description: 'Retinal Ganglion Cell: I-K (Skaliora et al 1995)'
+description: "Neuroscience Model34913491Model represents neuroscience 3491 3491 mechanisms from opensourcebrain reference opensourcebrain:3491. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - neuroscience

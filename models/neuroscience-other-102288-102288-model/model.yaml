@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model102288102288Model'
-description: O-LM interneuron model (Lawrence et al. 2006)
+description: "Neuroscience Model102288102288Model represents neuroscience 102288 102288 mechanisms from opensourcebrain reference opensourcebrain:102288. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - neuroscience

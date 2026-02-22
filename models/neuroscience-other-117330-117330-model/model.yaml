@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model117330117330Model'
-description: Hodgkin-Huxley simplifed 2D and 3D models (Lundstrom et al. 2009)
+description: "Hodgkin-Huxley simplifed 2D and 3D models (Lundstrom et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

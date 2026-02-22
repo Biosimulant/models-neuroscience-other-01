@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model38173817Model'
-description: 'Pyramidal Neuron: Deep, Thalamic Relay and Reticular, Interneuron (Destexhe
-  et al 1998, 2001)'
+description: "Pyramidal Neuron: Deep, Thalamic Relay and Reticular, Interneuron (Destexhe et al 1998, 2001). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

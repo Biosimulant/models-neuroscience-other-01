@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model112836112836Model'
-description: "Spike trains in Hodgkin\u2013Huxley model and ISIs of acupuncture manipulations\
-  \ (Wang et al. 2008)"
+description: "Spike trains in Hodgkin\u2013Huxley model and ISIs of acupuncture manipulations (Wang et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

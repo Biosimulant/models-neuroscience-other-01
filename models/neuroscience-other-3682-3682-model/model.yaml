@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model36823682Model'
-description: 'Visual Cortex Neurons: Dendritic computations (Archie, Mel 2000)'
+description: "Visual Cortex Neurons: Dendritic computations (Archie, Mel 2000). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

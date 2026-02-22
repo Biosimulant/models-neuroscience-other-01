@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model1819718197Model'
-description: Efficient Method for Computing Synaptic Conductance (Destexhe et al 1994)
+description: "Efficient Method for Computing Synaptic Conductance (Destexhe et al 1994). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model32643264Model'
-description: Short term plasticity of synapses onto V1 layer 2/3 pyramidal neuron  (Varela
-  et al 1997)
+description: "Short term plasticity of synapses onto V1 layer 2/3 pyramidal neuron (Varela et al 1997). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

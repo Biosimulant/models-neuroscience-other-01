@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model117351117351Model'
-description: Quantal neurotransmitter release kinetics with fixed and mobile Ca2+
-  buffers (Gilmanov et al. 2008)
+description: "Quantal neurotransmitter release kinetics with fixed and mobile Ca2+ buffers (Gilmanov et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

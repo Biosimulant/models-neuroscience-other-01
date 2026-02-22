@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model136308136308Model'
-description: Wang-Buzsaki Interneuron (Talathi et al., 2010)
+description: "Neuroscience Model136308136308Model represents neuroscience 136308 136308 mechanisms from opensourcebrain reference opensourcebrain:136308. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - neuroscience

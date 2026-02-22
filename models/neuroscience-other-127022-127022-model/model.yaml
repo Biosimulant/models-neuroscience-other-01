@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model127022127022Model'
-description: Control of vibrissa motoneuron firing (Harish and Golomb 2010)
+description: "Control of vibrissa motoneuron firing (Harish and Golomb 2010). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model2831628316Model'
-description: Active dendrites and spike propagation in a hippocampal interneuron (Saraga
-  et al 2003)
+description: "Active dendrites and spike propagation in a hippocampal interneuron (Saraga et al 2003). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

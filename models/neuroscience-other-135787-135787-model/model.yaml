@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model135787135787Model'
-description: Intracortical synaptic potential modulation by presynaptic somatic potential
-  (Shu et al. 2006, 2007)
+description: "Intracortical synaptic potential modulation by presynaptic somatic potential (Shu et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

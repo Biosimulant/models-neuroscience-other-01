@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model116575116575Model'
-description: A Model of Multiple Spike Initiation Zones in the Leech C-interneuron
-  (Crisp 2009)
+description: "A Model of Multiple Spike Initiation Zones in the Leech C-interneuron (Crisp 2009). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model112914112914Model'
-description: Two-cell inhibitory network bursting dynamics captured in a one-dimensional
-  map (Matveev et al 2007)
+description: "Two-cell inhibitory network bursting dynamics captured in a one-dimensional map (Matveev et al 2007). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

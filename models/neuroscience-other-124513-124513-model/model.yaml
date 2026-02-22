@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model124513124513Model'
-description: Dentate gyrus (Morgan et al. 2007, 2008, Santhakumar et al. 2005, Dyhrfjeld-Johnsen
-  et al. 2007)
+description: "Dentate gyrus (Morgan et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model118894118894Model'
-description: Stochastic automata network Markov model descriptors of coupled Ca2+
-  channels (Nguyen et al. 2005)
+description: "Stochastic automata network Markov model descriptors of coupled Ca2+ channels (Nguyen et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model3578135781Model'
-description: Stochastic LTP/LTD conditioning of a synapse (Migliore and Lansky 1999)
+description: "Stochastic LTP/LTD conditioning of a synapse (Migliore and Lansky 1999). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

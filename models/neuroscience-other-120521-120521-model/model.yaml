@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model120521120521Model'
-description: Nodose sensory neuron (Schild et al. 1994, Schild and Kunze 1997)
+description: "Nodose sensory neuron (Schild et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

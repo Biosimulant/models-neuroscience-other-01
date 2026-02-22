@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model35073507Model'
-description: Xenopus Myelinated Neuron (Frankenhaeuser, Huxley 1964)
+description: "Xenopus Myelinated Neuron (Frankenhaeuser, Huxley 1964). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

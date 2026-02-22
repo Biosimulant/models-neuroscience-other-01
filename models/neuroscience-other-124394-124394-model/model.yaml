@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model124394124394Model'
-description: Dendritic Na+ spike initiation and backpropagation of APs in active dendrites
-  (Nevian et al. 2007)
+description: "Dendritic Na+ spike initiation and backpropagation of APs in active dendrites (Nevian et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

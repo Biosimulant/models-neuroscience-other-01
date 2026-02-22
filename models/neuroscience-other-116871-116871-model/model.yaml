@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model116871116871Model'
-description: A spiking model of cortical broadcast and competition (Shanahan 2008)
+description: "A spiking model of cortical broadcast and competition (Shanahan 2008). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

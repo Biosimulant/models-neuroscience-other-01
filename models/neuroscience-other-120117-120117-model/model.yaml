@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model120117120117Model'
-description: TTX-R Na+ current effect on cell response (Herzog et al 2001) (MATLAB)
+description: "TTX-R Na+ current effect on cell response (Herzog et al 2001) (MATLAB). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

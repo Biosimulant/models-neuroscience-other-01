@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model2DistinctClassesOfL2AndL3PyramidalNeuron236429Model'
-description: '{"value": "\"There have been few quantitative characterizations of the\r\nmorphological,
-  biophysical, and cable properties of neurons in the\r\nhuman neocortex. We employed
-  feature-based statistical m'
+description: "{\"value\": \"\\\"There have been few quantitative characterizations of the\\r\\nmorphological, biophysical, and cable properties of neurons in the\\r\\nhuman neocortex. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

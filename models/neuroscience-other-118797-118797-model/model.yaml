@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model118797118797Model'
-description: Facilitation model based on bound Ca2+ (Matveev et al. 2006)
+description: "Facilitation model based on bound Ca2+ (Matveev et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

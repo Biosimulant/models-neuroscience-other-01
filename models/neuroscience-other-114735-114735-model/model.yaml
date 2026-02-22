@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model114735114735Model'
-description: High frequency oscillations induced in three gap-junction coupled neurons
-  (Tseng et al. 2008)
+description: "High frequency oscillations induced in three gap-junction coupled neurons (Tseng et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

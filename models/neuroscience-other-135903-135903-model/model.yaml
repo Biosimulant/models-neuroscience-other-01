@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model135903135903Model'
-description: Network recruitment to coherent oscillations in a hippocampal model (Stacey
-  et al. 2011)
+description: "Network recruitment to coherent oscillations in a hippocampal model (Stacey et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model128502128502Model'
-description: On stochastic diff. eq. models for ion channel noise in Hodgkin-Huxley
-  neurons (Goldwyn et al. 2010)
+description: "On stochastic diff. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

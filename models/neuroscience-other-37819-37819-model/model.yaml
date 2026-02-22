@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model3781937819Model'
-description: Thalamocortical augmenting response (Bazhenov et al 1998)
+description: "Thalamocortical augmenting response (Bazhenov et al 1998). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

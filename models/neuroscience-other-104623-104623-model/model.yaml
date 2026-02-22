@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model104623104623Model'
-description: Ionic basis of alternans and Timothy Syndrome (Fox et al. 2002), (Zhu
-  and Clancy 2007)
+description: "Ionic basis of alternans and Timothy Syndrome (Fox et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model112079112079Model'
-description: Properties of aconitine-induced block of KDR current in NG108-15 neurons
-  (Lin et al. 2008)
+description: "Properties of aconitine-induced block of KDR current in NG108-15 neurons (Lin et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

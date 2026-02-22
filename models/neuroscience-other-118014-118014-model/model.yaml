@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model118014118014Model'
-description: Roles of I(A) and morphology in AP prop. in CA1 pyramidal cell dendrites
-  (Acker and White 2007)
+description: "Roles of I(A) and morphology in AP prop. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model105507105507Model'
-description: Tonic-clonic transitions in a seizure simulation (Lytton and Omurtag
-  2007)
+description: "Tonic-clonic transitions in a seizure simulation (Lytton and Omurtag 2007). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

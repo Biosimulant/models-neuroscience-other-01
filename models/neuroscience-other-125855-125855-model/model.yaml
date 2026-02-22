@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model125855125855Model'
-description: Long-term adaptation with power-law dynamics (Zilany et al. 2009)
+description: "Long-term adaptation with power-law dynamics (Zilany et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

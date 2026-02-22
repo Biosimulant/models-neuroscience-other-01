@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model136296136296Model'
-description: Myelinated nerve fibre myelin resistance dependent on extracellular K+
-  level (Brazhe et al. 2010)
+description: "Myelinated nerve fibre myelin resistance dependent on extracellular K+ level (Brazhe et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

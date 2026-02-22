@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model102871102871Model'
-description: Elementary mechanisms producing facilitation of Cav2.1 (P/Q-type) channels
+description: "Elementary mechanisms producing facilitation of Cav2.1 (P/Q-type) channels. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

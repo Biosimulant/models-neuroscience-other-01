@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model127996127996Model'
-description: Rapid desynchronization of an electrically coupled Golgi cell network
-  (Vervaeke et al. 2010)
+description: "Rapid desynchronization of an electrically coupled Golgi cell network (Vervaeke et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

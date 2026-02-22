@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model267391267391Model'
-description: A 3D population model of midget retinal ganglion cells at the human fovea
-  (Italiano et al, 2022)
+description: "A 3D population model of midget retinal ganglion cells at the human fovea (Italiano et al, 2022). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

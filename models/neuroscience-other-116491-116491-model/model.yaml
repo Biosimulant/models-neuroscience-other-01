@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model116491116491Model'
-description: NEURON + Python (Hines et al. 2009)
+description: "Neuroscience Model116491116491Model models neuroscience 116491 116491 dynamics as a OTHER simulation curated from opensourcebrain (opensourcebrain:116491), focused on neuroscience, opensourcebrain, 116491. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - neuroscience

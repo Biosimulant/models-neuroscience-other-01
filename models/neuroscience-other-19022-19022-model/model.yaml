@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model1902219022Model'
-description: Fast AMPA receptor signaling (Geiger et al 1997)
+description: "Neuroscience Model1902219022Model represents neuroscience 19022 19022 mechanisms from opensourcebrain reference opensourcebrain:19022. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - neuroscience

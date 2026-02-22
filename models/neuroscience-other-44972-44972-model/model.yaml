@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model4497244972Model'
-description: Sympathetic neuron (Wheeler et al 2004)
+description: "Neuroscience Model4497244972Model models neuroscience 44972 44972 dynamics as a OTHER simulation curated from opensourcebrain (opensourcebrain:44972), focused on neuroscience, opensourcebrain, 44972. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - neuroscience

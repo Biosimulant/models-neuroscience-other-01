@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model4203642036Model'
-description: Touch Sensory Cells (T Cells) of the Leech (Cataldo et al. 2004) (Scuri
-  et al. 2007)
+description: "Touch Sensory Cells (T Cells) of the Leech (Cataldo et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

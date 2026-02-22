@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model3686936869Model'
-description: Inner hair cell auditory nerve synapse model (Deligeorges, Mountain 1997)
+description: "Inner hair cell auditory nerve synapse model (Deligeorges, Mountain 1997). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

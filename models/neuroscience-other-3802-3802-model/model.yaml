@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model38023802Model'
-description: 'Retinal Photoreceptor: I Potassium (Beech, Barnes 1989)'
+description: "Retinal Photoreceptor: I Potassium (Beech, Barnes 1989). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

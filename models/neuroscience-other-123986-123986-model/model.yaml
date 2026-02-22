@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model123986123986Model'
-description: Oscillation and coding in a proposed NN model of insect olfaction (Horcholle-Bossavit
-  et al. 2007)
+description: "Oscillation and coding in a proposed NN model of insect olfaction (Horcholle-Bossavit et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

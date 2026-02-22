@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model120798120798Model'
-description: Membrane potential changes in dendritic spines during APs and synaptic
-  input (Palmer & Stuart 2009)
+description: "Membrane potential changes in dendritic spines during APs and synaptic input (Palmer & Stuart 2009). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

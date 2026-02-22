@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model127507127507Model'
-description: Regulation of firing frequency in a midbrain dopaminergic neuron model
-  (Kuznetsova et al. 2010)
+description: "Regulation of firing frequency in a midbrain dopaminergic neuron model (Kuznetsova et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

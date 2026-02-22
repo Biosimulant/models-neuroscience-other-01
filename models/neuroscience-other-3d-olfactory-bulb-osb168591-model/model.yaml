@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model168591168591Model'
-description: '3D olfactory bulb: operators (Migliore et al, 2015)'
+description: "3D olfactory bulb: operators (Migliore et al, 2015). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

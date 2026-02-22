@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model1766317663Model'
-description: 'Thalamic reticular neurons: the role of Ca currents (Destexhe et al
-  1996)'
+description: "Thalamic reticular neurons: the role of Ca currents (Destexhe et al 1996). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

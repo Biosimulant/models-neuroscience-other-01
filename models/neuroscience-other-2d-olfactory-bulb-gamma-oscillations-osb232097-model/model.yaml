@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model232097232097Model'
-description: 2D model of olfactory bulb gamma oscillations (Li and Cleland 2017)
+description: "2D model of olfactory bulb gamma oscillations (Li and Cleland 2017). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

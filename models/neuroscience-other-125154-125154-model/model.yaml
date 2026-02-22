@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model125154125154Model'
-description: Simulation studies on mechanisms of levetiracetam-mediated inhibition
-  of IK(DR) (Huang et al. 2009)
+description: "Simulation studies on mechanisms of levetiracetam-mediated inhibition of IK(DR) (Huang et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

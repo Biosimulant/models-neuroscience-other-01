@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model34883488Model'
-description: 'Retinal Ganglion Cell: I-A (Benison et al 2001)'
+description: "Neuroscience Model34883488Model models neuroscience 3488 3488 dynamics as a OTHER simulation curated from opensourcebrain (opensourcebrain:3488), focused on neuroscience, opensourcebrain, 3488. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - neuroscience

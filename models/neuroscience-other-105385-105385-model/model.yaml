@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model105385105385Model'
-description: Nav1.6 sodium channel model in globus pallidus neurons (Mercer et al.
-  2007)
+description: "Nav1.6 sodium channel model in globus pallidus neurons (Mercer et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

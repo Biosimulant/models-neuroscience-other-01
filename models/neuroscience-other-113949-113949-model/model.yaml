@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model113949113949Model'
-description: Dendritic processing of excitatory synaptic input in GnRH neurons (Roberts
-  et al. 2006)
+description: "Dendritic processing of excitatory synaptic input in GnRH neurons (Roberts et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

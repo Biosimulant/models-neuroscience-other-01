@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model118434118434Model'
-description: Odor supported place cell model and goal navigation in rodents (Kulvicius
-  et al. 2008)
+description: "Odor supported place cell model and goal navigation in rodents (Kulvicius et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

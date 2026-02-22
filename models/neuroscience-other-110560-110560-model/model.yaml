@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model110560110560Model'
-description: Space clamp problems in neurons with voltage-gated conductances (Bar-Yehuda
-  and Korngreen 2008)
+description: "Space clamp problems in neurons with voltage-gated conductances (Bar-Yehuda and Korngreen 2008). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

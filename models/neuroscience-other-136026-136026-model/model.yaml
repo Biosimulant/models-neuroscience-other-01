@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model136026136026Model'
-description: Functional structure of mitral cell dendritic tuft (Djurisic et al. 2008)
+description: "Functional structure of mitral cell dendritic tuft (Djurisic et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

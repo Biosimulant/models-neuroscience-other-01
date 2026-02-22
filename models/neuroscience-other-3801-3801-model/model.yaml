@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model38013801Model'
-description: 'Dentate Basket Cell: spatial summation of inhibitory synaptic inputs
-  (Bartos et al 2001)'
+description: "Dentate Basket Cell: spatial summation of inhibitory synaptic inputs (Bartos et al 2001). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

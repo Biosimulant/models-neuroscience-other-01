@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model106891106891Model'
-description: 'JitCon: Just in time connectivity for large spiking networks (Lytton
-  et al. 2008)'
+description: "JitCon: Just in time connectivity for large spiking networks (Lytton et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

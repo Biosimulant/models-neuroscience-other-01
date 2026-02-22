@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model119266119266Model'
-description: Modelling reduced excitability in aged CA1 neurons as a Ca-dependent
-  process (Markaki et al. 2005)
+description: "Modelling reduced excitability in aged CA1 neurons as a Ca-dependent process (Markaki et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

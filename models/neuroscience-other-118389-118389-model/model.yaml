@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model118389118389Model'
-description: Gap junction coupled network of striatal fast spiking interneurons (Hjorth
-  et al. 2009)
+description: "Gap junction coupled network of striatal fast spiking interneurons (Hjorth et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

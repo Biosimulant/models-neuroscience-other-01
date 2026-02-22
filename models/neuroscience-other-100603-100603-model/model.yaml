@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model100603100603Model'
-description: ERG current in repolarizing plateau potentials in dopamine neurons (Canavier
-  et al 2007)
+description: "ERG current in repolarizing plateau potentials in dopamine neurons (Canavier et al 2007). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

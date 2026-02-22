@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model1992019920Model'
-description: T-type Calcium currents (McRory et al 2001)
+description: "Neuroscience Model1992019920Model represents neuroscience 19920 19920 mechanisms from opensourcebrain reference opensourcebrain:19920. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - neuroscience

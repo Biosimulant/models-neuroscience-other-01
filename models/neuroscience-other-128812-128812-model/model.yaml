@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model128812128812Model'
-description: Grid cell oscillatory interference with noisy network oscillators (Zilli
-  and Hasselmo 2010)
+description: "Grid cell oscillatory interference with noisy network oscillators (Zilli and Hasselmo 2010). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

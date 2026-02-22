@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model114230114230Model'
-description: Systems-level modeling of neuronal circuits for leech swimming (Zheng
-  et al. 2007)
+description: "Systems-level modeling of neuronal circuits for leech swimming (Zheng et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

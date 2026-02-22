@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model123987123987Model'
-description: Neural model of frog ventilatory rhythmogenesis (Horcholle-Bossavit and
-  Quenet 2009)
+description: "Neural model of frog ventilatory rhythmogenesis (Horcholle-Bossavit and Quenet 2009). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

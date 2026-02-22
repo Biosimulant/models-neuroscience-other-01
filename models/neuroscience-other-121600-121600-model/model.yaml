@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model121600121600Model'
-description: 'Thalamic neuron: Modeling rhythmic neuronal activity (Meuth et al. 2005)'
+description: "Thalamic neuron: Modeling rhythmic neuronal activity (Meuth et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

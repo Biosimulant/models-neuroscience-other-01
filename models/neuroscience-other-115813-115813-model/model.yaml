@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model115813115813Model'
-description: 'Human Attentional Networks: A Connectionist Model (Wang and Fan 2007)'
+description: "Human Attentional Networks: A Connectionist Model (Wang and Fan 2007). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

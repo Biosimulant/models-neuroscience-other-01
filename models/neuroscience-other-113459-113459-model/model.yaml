@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model113459113459Model'
-description: Distributed representation of perceptual categories in the auditory cortex
-  (Kim and Bao 2008)
+description: "Distributed representation of perceptual categories in the auditory cortex (Kim and Bao 2008). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

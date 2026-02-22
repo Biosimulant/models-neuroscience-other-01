@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model111870111870Model'
-description: Thalamic transformation of pallidal input (Hadipour-Niktarash 2006)
+description: "Thalamic transformation of pallidal input (Hadipour-Niktarash 2006). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

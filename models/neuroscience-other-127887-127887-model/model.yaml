@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model127887127887Model'
-description: Spectral method and high-order finite differences for nonlinear cable
-  (Omurtag and Lytton 2010)
+description: "Spectral method and high-order finite differences for nonlinear cable (Omurtag and Lytton 2010). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

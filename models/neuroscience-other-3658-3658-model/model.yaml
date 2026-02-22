@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model36583658Model'
-description: Glutamate diffusion and AMPA receptor activation in the cerebellar glomerulus
-  (Saftenku 2005)
+description: "Glutamate diffusion and AMPA receptor activation in the cerebellar glomerulus (Saftenku 2005). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

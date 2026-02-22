@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: 3dPrinterVisualizationOfNeuronModelsMcdoug182785Model'
-description: '{"value": "\"... We introduce the use of 3D printing as a technique
-  for visualizing traced morphologies. Our method for generating printable versions
-  of a cell or group of cells is to expand dendrite '
+description: "{\"value\": \"\\\"... We introduce the use of 3D printing as a technique for visualizing traced morphologies."
 standard: other
 tags:
 - neuroscience

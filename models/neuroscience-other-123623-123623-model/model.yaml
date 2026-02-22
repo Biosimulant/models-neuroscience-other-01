@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model123623123623Model'
-description: Hodgkin-Huxley models of different classes of cortical neurons (Pospischil
-  et al. 2008)
+description: "Hodgkin-Huxley models of different classes of cortical neurons (Pospischil et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

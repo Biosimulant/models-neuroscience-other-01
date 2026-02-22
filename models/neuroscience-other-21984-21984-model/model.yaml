@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model2198421984Model'
-description: Facilitation by residual calcium (Stockbridge, Hines 1982)
+description: "Facilitation by residual calcium (Stockbridge, Hines 1982). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model118326118326Model'
-description: 'Moose/PyMOOSE: interoperable scripting in Python for MOOSE (Ray and
-  Bhalla 2008)'
+description: "Moose/PyMOOSE: interoperable scripting in Python for MOOSE (Ray and Bhalla 2008). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

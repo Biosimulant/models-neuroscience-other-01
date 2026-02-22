@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model127512127512Model'
-description: Temporal and spatial characteristics of vibrissa responses to motor commands
-  (Simony et al. 2010)
+description: "Temporal and spatial characteristics of vibrissa responses to motor commands (Simony et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

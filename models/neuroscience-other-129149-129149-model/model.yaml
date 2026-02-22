@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model129149129149Model'
-description: Increased computational accuracy in multi-compartmental cable models
-  (Lindsay et al. 2005)
+description: "Increased computational accuracy in multi-compartmental cable models (Lindsay et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

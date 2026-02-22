@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model116123116123Model'
-description: Dynamics of Spike Initiation (Prescott et al. 2008)
+description: "Dynamics of Spike Initiation (Prescott et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

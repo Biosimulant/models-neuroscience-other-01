@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model4552545525Model'
-description: Large cortex model with map-based neurons (Rulkov et al 2004)
+description: "Large cortex model with map-based neurons (Rulkov et al 2004). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model2075620756Model'
-description: Mechanisms of fast rhythmic bursting in a layer 2/3 cortical neuron (Traub
-  et al 2003)
+description: "Mechanisms of fast rhythmic bursting in a layer 2/3 cortical neuron (Traub et al 2003). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

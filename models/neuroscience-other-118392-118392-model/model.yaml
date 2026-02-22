@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model118392118392Model'
-description: Phase oscillator models for lamprey central pattern generators (Varkonyi
-  et al. 2008)
+description: "Phase oscillator models for lamprey central pattern generators (Varkonyi et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

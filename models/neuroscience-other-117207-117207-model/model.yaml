@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model117207117207Model'
-description: Excitability of PFC Basal Dendrites (Acker and Antic 2009)
+description: "Excitability of PFC Basal Dendrites (Acker and Antic 2009). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

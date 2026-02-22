@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model126814126814Model'
-description: CA3 pyramidal neuron (Safiulina et al. 2010)
+description: "Neuroscience Model126814126814Model models neuroscience 126814 126814 dynamics as a OTHER simulation curated from opensourcebrain (opensourcebrain:126814), focused on neuroscience, opensourcebrain, 126814. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - neuroscience

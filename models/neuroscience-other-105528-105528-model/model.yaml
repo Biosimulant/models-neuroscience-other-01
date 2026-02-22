@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model105528105528Model'
-description: Effect of riluzole on action potential in cultured human skeletal muscle
-  cells (Wang YJ et al. 2008)
+description: "Effect of riluzole on action potential in cultured human skeletal muscle cells (Wang YJ et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

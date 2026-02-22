@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model34933493Model'
-description: 'Spinal Motor Neuron: Na, K_A, and K_DR currents (Safronov, Vogel 1995)'
+description: "Spinal Motor Neuron: Na, K_A, and K_DR currents (Safronov, Vogel 1995). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

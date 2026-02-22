@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model128816128816Model'
-description: 'Medial reticular formation of the brainstem: anatomy and dynamics (Humphries
-  et al. 2006, 2007)'
+description: "Medial reticular formation of the brainstem: anatomy and dynamics (Humphries et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

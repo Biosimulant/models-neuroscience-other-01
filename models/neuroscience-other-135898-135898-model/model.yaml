@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model135898135898Model'
-description: Selective control of cortical axonal spikes by a slowly inactivating
-  K+ current (Shu et al. 2007)
+description: "Selective control of cortical axonal spikes by a slowly inactivating K+ current (Shu et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

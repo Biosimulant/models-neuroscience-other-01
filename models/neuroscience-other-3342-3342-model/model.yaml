@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model33423342Model'
-description: Action potential initiation in the olfactory mitral cell (Shen et al
-  1999)
+description: "Action potential initiation in the olfactory mitral cell (Shen et al 1999). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

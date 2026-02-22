@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model121259121259Model'
-description: Small world networks of Type I and Type II Excitable Neurons (Bogaard
-  et al. 2009)
+description: "Small world networks of Type I and Type II Excitable Neurons (Bogaard et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

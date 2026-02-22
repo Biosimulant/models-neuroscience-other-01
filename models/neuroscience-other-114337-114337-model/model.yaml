@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model114337114337Model'
-description: Ionic mechanisms of bursting in CA3 pyramidal neurons (Xu and Clancy
-  2008)
+description: "Ionic mechanisms of bursting in CA3 pyramidal neurons (Xu and Clancy 2008). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

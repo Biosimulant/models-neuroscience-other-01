@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model118092118092Model'
-description: A model of the femur-tibia control system in stick insects (Stein et
-  al. 2008)
+description: "A model of the femur-tibia control system in stick insects (Stein et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

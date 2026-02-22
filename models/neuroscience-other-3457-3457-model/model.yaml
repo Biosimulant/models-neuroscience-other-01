@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model34573457Model'
-description: 'Retinal Ganglion Cell: I-CaN and I-CaL (Benison et al. 2001)'
+description: "Retinal Ganglion Cell: I-CaN and I-CaL (Benison et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

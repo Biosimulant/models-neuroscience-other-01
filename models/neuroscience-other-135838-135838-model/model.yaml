@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model135838135838Model'
-description: Action potential reconstitution from measured current waveforms (Alle
-  et al. 2009)
+description: "Action potential reconstitution from measured current waveforms (Alle et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model125857125857Model'
-description: 'A Fast Rhythmic Bursting Cell: in vivo cell modeling (Lee 2007)'
+description: "A Fast Rhythmic Bursting Cell: in vivo cell modeling (Lee 2007). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

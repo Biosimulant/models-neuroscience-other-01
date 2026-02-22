@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model4232142321Model'
-description: Multiple modes of a conditional neural oscillator (Epstein, Marder 1990)
+description: "Multiple modes of a conditional neural oscillator (Epstein, Marder 1990). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

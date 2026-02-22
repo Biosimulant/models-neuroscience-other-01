@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model114359114359Model'
-description: Impact of dendritic size and topology on pyramidal cell burst firing
-  (van Elburg and van Ooyen 2010)
+description: "Impact of dendritic size and topology on pyramidal cell burst firing (van Elburg and van Ooyen 2010). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model36653665Model'
-description: 'Olfactory Periglomerular Cells: I-h kinetics (Cadetti, Belluzzi 2001)'
+description: "Olfactory Periglomerular Cells: I-h kinetics (Cadetti, Belluzzi 2001). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

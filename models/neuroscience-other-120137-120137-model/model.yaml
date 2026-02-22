@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model120137120137Model'
-description: A finite volume method for stochastic integrate-and-fire models (Marpeau
-  et al. 2009)
+description: "A finite volume method for stochastic integrate-and-fire models (Marpeau et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

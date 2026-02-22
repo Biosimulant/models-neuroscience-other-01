@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model125683125683Model'
-description: Deterministic chaos in a mathematical model of a snail neuron (Komendantov
-  and Kononenko 1996)
+description: "Deterministic chaos in a mathematical model of a snail neuron (Komendantov and Kononenko 1996). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

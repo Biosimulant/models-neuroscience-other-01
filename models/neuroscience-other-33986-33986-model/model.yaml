@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model3398633986Model'
-description: Serotonergic modulation of Aplysia sensory neurons (Baxter et al 1999)
+description: "Serotonergic modulation of Aplysia sensory neurons (Baxter et al 1999). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

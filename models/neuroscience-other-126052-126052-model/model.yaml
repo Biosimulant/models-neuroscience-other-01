@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model126052126052Model'
-description: Integrate and fire model code for spike-based coincidence-detection (Heinz
-  et al. 2001, others)
+description: "Integrate and fire model code for spike-based coincidence-detection (Heinz et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

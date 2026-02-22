@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model114643114643Model'
-description: High-Res. Recordings Using a Real-Time Computational Model of the Electrode
-  (Brette et al. 2008)
+description: "High-Res. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

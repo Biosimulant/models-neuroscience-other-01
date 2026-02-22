@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model36703670Model'
-description: Thalamic Reticular Network (Destexhe et al 1994)
+description: "Neuroscience Model36703670Model represents neuroscience 3670 3670 mechanisms from opensourcebrain reference opensourcebrain:3670. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - neuroscience

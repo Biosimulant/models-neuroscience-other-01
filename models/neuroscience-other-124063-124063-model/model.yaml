@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model124063124063Model'
-description: A network model of the vertebrate retina (Publio et al. 2009)
+description: "A network model of the vertebrate retina (Publio et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

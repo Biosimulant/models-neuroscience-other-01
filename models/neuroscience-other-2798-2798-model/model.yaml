@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model27982798Model'
-description: Hopfield and Brody model (Hopfield, Brody 2000)
+description: "Neuroscience Model27982798Model models neuroscience 2798 2798 dynamics as a OTHER simulation curated from opensourcebrain (opensourcebrain:2798), focused on neuroscience, opensourcebrain, 2798. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - neuroscience

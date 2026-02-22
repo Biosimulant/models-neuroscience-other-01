@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model115357115357Model'
-description: Generalized Carnevale-Hines algorithm (van Elburg and van Ooyen 2009)
+description: "Generalized Carnevale-Hines algorithm (van Elburg and van Ooyen 2009). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

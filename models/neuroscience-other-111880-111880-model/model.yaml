@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model111880111880Model'
-description: Thalamocortical model of spike and wave seizures (Suffczynski et al.
-  2004)
+description: "Thalamocortical model of spike and wave seizures (Suffczynski et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

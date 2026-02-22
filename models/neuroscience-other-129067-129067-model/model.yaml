@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model129067129067Model'
-description: Synthesis of spatial tuning functions from theta cell spike trains (Welday
-  et al., 2011)
+description: "Synthesis of spatial tuning functions from theta cell spike trains (Welday et al., 2011). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

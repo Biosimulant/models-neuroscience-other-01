@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model122369122369Model'
-description: Investigation of different targets in deep brain stimulation for Parkinson`s
-  (Pirini et al. 2009)
+description: "Investigation of different targets in deep brain stimulation for Parkinson`s (Pirini et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

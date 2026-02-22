@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model124111124111Model'
-description: A contracting model of the basal ganglia (Girard et al. 2008)
+description: "A contracting model of the basal ganglia (Girard et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

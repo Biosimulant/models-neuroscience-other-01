@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model120783120783Model'
-description: Generating oscillatory bursts from a network of regular spiking neurons
-  (Shao et al. 2009)
+description: "Generating oscillatory bursts from a network of regular spiking neurons (Shao et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

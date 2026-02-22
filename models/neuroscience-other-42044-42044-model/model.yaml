@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model4204442044Model'
-description: Squid axon (Hodgkin, Huxley 1952) (SNNAP)
+description: "Neuroscience Model4204442044Model represents neuroscience 42044 42044 mechanisms from opensourcebrain reference opensourcebrain:42044. When you run it, you can inspect state and compare temporal behavior between baseline and adjusted inputs."
 standard: other
 tags:
 - neuroscience

@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model128818128818Model'
-description: Dopamine-modulated medium spiny neuron, reduced model (Humphries et al.
-  2009)
+description: "Dopamine-modulated medium spiny neuron, reduced model (Humphries et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

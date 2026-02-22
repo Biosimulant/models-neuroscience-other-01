@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model4202042020Model'
-description: Sparsely connected networks of spiking neurons (Brunel 2000)
+description: "Sparsely connected networks of spiking neurons (Brunel 2000). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

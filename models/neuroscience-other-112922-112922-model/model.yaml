@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model112922112922Model'
-description: Spikes,synchrony,and attentive learning by laminar thalamocort. circuits
-  (Grossberg & Versace 2007)
+description: "Spikes,synchrony,and attentive learning by laminar thalamocort. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model1974719747Model'
-description: Synaptic transmission at the calyx of Held (Graham et al 2001)
+description: "Synaptic transmission at the calyx of Held (Graham et al 2001). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

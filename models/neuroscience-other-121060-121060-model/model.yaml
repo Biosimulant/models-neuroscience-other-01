@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model121060121060Model'
-description: Effects of KIR current inactivation in NAc Medium Spiny Neurons (Steephen
-  and Manchanda 2009)
+description: "Effects of KIR current inactivation in NAc Medium Spiny Neurons (Steephen and Manchanda 2009). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model124043124043Model'
-description: Synaptic integration in tuft dendrites of layer 5 pyramidal neurons (Larkum
-  et al. 2009)
+description: "Synaptic integration in tuft dendrites of layer 5 pyramidal neurons (Larkum et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

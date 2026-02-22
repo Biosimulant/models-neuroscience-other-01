@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model116838116838Model'
-description: The virtual slice setup (Lytton et al. 2008)
+description: "Neuroscience Model116838116838Model captures neuroscience 116838 116838 behavior in the context of neuroscience, opensourcebrain, 116838 using a opensourcebrain-sourced OTHER model. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - neuroscience

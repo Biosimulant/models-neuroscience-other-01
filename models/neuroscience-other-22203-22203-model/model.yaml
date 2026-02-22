@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model2220322203Model'
-description: Correcting space clamp in dendrites (Schaefer et al. 2003 and 2007)
+description: "Correcting space clamp in dendrites (Schaefer et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

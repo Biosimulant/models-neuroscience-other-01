@@ -1,8 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model3dReconstructedAstrocyteWithKDynamics2019791Model'
-description: '{"value": "A NEURON implementation of the K\u207a accumulation and clearance
-  curves from Figure\u202f5 of Savtchenko et\u202fal. (2018, Nature Communications),
-  using four CA1 astrocytes to reproduce t'
+description: "{\"value\": \"A NEURON implementation of the K\\u207a accumulation and clearance curves from Figure\\u202f5 of Savtchenko et\\u202fal. (2018, Nature Communications), using four CA1 astrocytes to reproduce t."
 standard: other
 tags:
 - neuroscience

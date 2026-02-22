@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model128043128043Model'
-description: Stochastic ion channels and neuronal morphology (Cannon et al. 2010)
+description: "Stochastic ion channels and neuronal morphology (Cannon et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model36483648Model'
-description: 'Olfactory Mitral Cell: I-A and I-K currents (Wang et al 1996)'
+description: "Olfactory Mitral Cell: I-A and I-K currents (Wang et al 1996). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

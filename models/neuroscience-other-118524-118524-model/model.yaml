@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model118524118524Model'
-description: 'Virtual Retina: biological retina simulator, with contrast gain control
-  (Wohrer and Kornprobst 2009)'
+description: "Virtual Retina: biological retina simulator, with contrast gain control (Wohrer and Kornprobst 2009). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

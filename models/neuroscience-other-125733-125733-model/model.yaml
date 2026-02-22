@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model125733125733Model'
-description: 'Hippocampus CA1: Temporal sensitivity of signaling pathways underlying
-  LTP (Kim et al. 2010)'
+description: "Hippocampus CA1: Temporal sensitivity of signaling pathways underlying LTP (Kim et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

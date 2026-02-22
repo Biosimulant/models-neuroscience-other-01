@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model127351127351Model'
-description: A two-stage model of dendritic integration in CA1 pyramidal neurons (Katz
-  et al. 2009)
+description: "A two-stage model of dendritic integration in CA1 pyramidal neurons (Katz et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

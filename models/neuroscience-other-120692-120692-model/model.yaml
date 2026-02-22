@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model120692120692Model'
-description: Sodium potassium ATPase pump (Chapman et al. 1983)
+description: "Sodium potassium ATPase pump (Chapman et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

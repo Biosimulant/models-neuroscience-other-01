@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model126637126637Model'
-description: A simplified cerebellar Purkinje neuron (the PPR model) (Brown et al.
-  2011)
+description: "A simplified cerebellar Purkinje neuron (the PPR model) (Brown et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

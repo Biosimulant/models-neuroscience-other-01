@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model2000720007Model'
-description: CA3 pyramidal neuron (Lazarewicz et al 2002)
+description: "Neuroscience Model2000720007Model models neuroscience 20007 20007 dynamics as a OTHER simulation curated from opensourcebrain (opensourcebrain:20007), focused on neuroscience, opensourcebrain, 20007. When you run it, you can track state over time and compare response patterns across parameter settings."
 standard: other
 tags:
 - neuroscience

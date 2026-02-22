@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model120227120227Model'
-description: Multistability of clustered states in a globally inhibitory network (Chandrasekaran
-  et al. 2009)
+description: "Multistability of clustered states in a globally inhibitory network (Chandrasekaran et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

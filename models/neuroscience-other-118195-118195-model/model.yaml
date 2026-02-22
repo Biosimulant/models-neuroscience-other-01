@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model118195118195Model'
-description: Evaluation of stochastic diff. eq. approximation of ion channel gating
-  models (Bruce 2009)
+description: "Evaluation of stochastic diff. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

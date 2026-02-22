@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model120907120907Model'
-description: Mechanisms of very fast oscillations in axon networks coupled by gap
-  junctions (Munro, Borgers 2010)
+description: "Mechanisms of very fast oscillations in axon networks coupled by gap junctions (Munro, Borgers 2010). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

@@ -1,6 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model4204742047Model'
-description: Minimal cell model (Av-Ron et al 1991)
+description: "Neuroscience Model4204742047Model captures neuroscience 42047 42047 behavior in the context of neuroscience, opensourcebrain, 42047 using a opensourcebrain-sourced OTHER model. When you run it, you can observe state and evaluate how the modeled system changes across runs."
 standard: other
 tags:
 - neuroscience

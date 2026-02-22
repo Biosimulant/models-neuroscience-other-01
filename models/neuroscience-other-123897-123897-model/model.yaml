@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model123897123897Model'
-description: Action Potential initiation and backpropagation in Neocortical L5 Pyramidal
-  Neuron (Hu et al. 2009)
+description: "Action Potential initiation and backpropagation in Neocortical L5 Pyramidal Neuron (Hu et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

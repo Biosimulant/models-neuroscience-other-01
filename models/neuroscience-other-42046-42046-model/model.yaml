@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model4204642046Model'
-description: Morris-Lecar model of the barnacle giant muscle fiber (Morris, Lecar
-  1981)
+description: "Morris-Lecar model of the barnacle giant muscle fiber (Morris, Lecar 1981). It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

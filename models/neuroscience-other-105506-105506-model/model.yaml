@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model105506105506Model'
-description: A dual-Ca2+-sensor model for neurotransmitter release in a central synapse
-  (Sun et al. 2007)
+description: "A dual-Ca2+-sensor model for neurotransmitter release in a central synapse (Sun et al. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience

@@ -1,7 +1,6 @@
 schema_version: '2.0'
 title: 'Neuroscience: Model117810117810Model'
-description: Simulation system of spinal cord motor nuclei and assoc. nerves and muscles
-  (Cisi and Kohn 2008)
+description: "Simulation system of spinal cord motor nuclei and assoc. It can be used to explore neural activity dynamics and compare response patterns across conditions."
 standard: other
 tags:
 - neuroscience
