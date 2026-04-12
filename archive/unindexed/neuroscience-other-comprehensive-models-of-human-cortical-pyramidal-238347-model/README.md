@@ -16,9 +16,8 @@ This model was auto-generated from the modeldb repository.
 ```yaml
 # In a space.yaml wiring file:
 models:
-  - repo: Biosimulant/models
+  - path: ../../models/neuroscience-other-comprehensive-models-of-human-cortical-pyramidal-238347-model
     alias: model
-    manifest_path: models/neuroscience-other-comprehensive-models-of-human-cortical-pyramidal-238347-model/model.yaml
 ```
 
 ## Tags
